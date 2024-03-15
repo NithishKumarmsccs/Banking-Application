@@ -1,0 +1,49 @@
+.homepage {
+  background-image: url('D:\PROJECT\BAD BANK pro\Bankproj2\public\f2trd9ciafs41.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.logo {
+  width: 50px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 10px; /* Adjust spacing between logo and text */
+}
+/* Fade in animation for h1 */
+@keyframes fadeInH1 {
+  from {
+    opacity: 0; /* Start with opacity 0 (fully transparent) */
+  }
+  to {
+    opacity: 1; /* End with opacity 1 (fully visible) */
+  }
+}
+
+/* Fade in animation for p */
+@keyframes fadeInP {
+  from {
+    opacity: 0; /* Start with opacity 0 (fully transparent) */
+  }
+  to {
+    opacity: 1; /* End with opacity 1 (fully visible) */
+  }
+}
+
+.homepage h1 {
+  animation: fadeInH1 2s ease forwards; /* Apply fadeInH1 animation with 2s duration */
+  color: white; /* Text color */
+  text-align: center; /* Center align text */
+  margin: 10px; /* Add margin for better spacing */
+}
+
+.homepage p,
+.homepage a {
+  animation: fadeInP 2s ease forwards; /* Apply fadeInP animation with 2s duration */
+  color: white; /* Text color */
+  text-align: center; /* Center align text */
+  margin: 10px; /* Add margin for better spacing */
+}

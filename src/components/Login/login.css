@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Adjust as needed */
+  background-image: url('D:\PROJECT\BAD BANK pro\Bankproj2\public\black euro.jpg'); /* Specify the correct file path or URL to your background image */
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(120, 119, 119, 0.8);
+}
+form {
+  width: 300px; /* Adjust width as needed */
+  padding: 20px;
+  /* background-color: rgba(135, 132, 132, 0.8); Light grey background */
+  border-radius: 10px;
+}
+.card-container {
+  background-color: rgba(146, 142, 142, 0.8); /* Adjust opacity as needed */
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 400px; /* Adjust as needed */
+  filter: blur(100px);
+  text-align: center; /* Center align content */
+}
+
+/* Add other styles as needed */
+
+/* login.css */
+.white-button {
+  color: #7a7777; /* Text color */
+  background-color: transparent; /* Transparent background */
+  border-color: #807f7f; /* Border color */
+  margin-top: 10px; /* Adjust margin as needed */
+}
+
+.btn-transparent {
+  color: #959292; /* Text color */
+  background-color: transparent; /* Transparent background */
+  border-color: #8c8b8b; /* Border color */
+  margin-top: 10px; /* Adjust margin as needed */
+}
+
+.btn-transparent:hover {
+  background-color: #7e7f81; /* Change background color on hover */
+  color: #7b7a7a; /* Change text color on hover */
+}

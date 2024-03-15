@@ -1,0 +1,32 @@
+.menu {
+    text-align: center; /* Center align the content */
+    background-image: url('D:\PROJECT\BAD BANK pro\BAD BANK pro\public\c.jpg'); /* Set the background image */
+    background-size: cover; /* Ensure the background image covers the entire element */
+    height: 100vh;
+  }
+  
+  .menu ul {
+    list-style-type: none; /* Remove bullet points from the list */
+    padding: 0; /* Remove default padding */
+  }
+  
+  .menu ul li {
+    display: inline-block; /* Display list items horizontally */
+    margin-right: 20px; /* Add spacing between list items */
+  }
+  
+  .menu ul li:last-child {
+    margin-right: 0; /* Remove margin from the last list item */
+  }
+  
+  .menu ul li a {
+    text-decoration: none; /* Remove underline from anchor links */
+    color: #ffffff; /* Set text color */
+    padding: 10px 20px; /* Add padding to anchor links */
+    display: block; /* Make anchor links block-level elements */
+  }
+  
+  .menu ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Add hover effect */
+  }
+  

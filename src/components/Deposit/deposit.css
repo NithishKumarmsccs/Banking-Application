@@ -1,0 +1,34 @@
+.deposit-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Adjust as needed */
+  background-image: url('D:\PROJECT\BAD BANK pro\Bankproj2\public\black euro.jpg'); /* Specify the path to your background image */
+  background-size: cover;
+  background-position: center;
+}
+
+.deposit-form {
+  /* Your form styles here */
+}
+
+.user-balance {
+  /* Styles for user balance */
+}
+
+.amount-container {
+  /* Styles for amount container */
+}
+
+.fields {
+  /* Styles for fields */
+}
+
+/* New CSS rule to change button color */
+.amount-container .btn-secondary {
+  background-color: rgb(128, 125, 125); /* Change button color here */
+}
+
+.alert {
+  /* Styles for alert */
+}

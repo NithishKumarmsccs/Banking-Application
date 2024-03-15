@@ -1,0 +1,36 @@
+/* helpcenter.css */
+
+.help-center {
+    text-align: center; /* Center align the content */
+  }
+  
+  .help-center h2 {
+    margin-bottom: 20px; /* Add some bottom margin to the heading */
+  }
+  
+  .help-center div {
+    margin-bottom: 20px; /* Add some bottom margin to the divs */
+  }
+  
+  .help-center ul {
+    list-style-type: none; /* Remove bullet points from the list */
+    padding: 0; /* Remove default padding */
+  }
+  
+  .help-center ul li {
+    margin-bottom: 10px; /* Add spacing between list items */
+  }
+  
+  .help-center button {
+    background-color: #007bff; /* Set button background color */
+    color: #ffffff; /* Set button text color */
+    border: none; /* Remove button border */
+    padding: 10px 20px; /* Add padding to the button */
+    cursor: pointer; /* Set cursor to pointer on hover */
+    border-radius: 5px; /* Add border radius for rounded corners */
+  }
+  
+  .help-center button:hover {
+    background-color: #0056b3; /* Change button background color on hover */
+  }
+  

@@ -1,0 +1,56 @@
+.withdraw-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust as needed */
+    background-image: url('D:\PROJECT\BAD BANK pro\Bankproj2\public\black euro.jpg'); /* Specify the path to your background image */
+    background-size: cover;
+    background-position: center;
+  }
+  /* withdraw.css */
+
+.alert.animate__animated.animate__fadeIn {
+  animation-duration: 3s; /* Adjust the duration as needed */
+}
+
+  .withdraw-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .withdraw-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .alerts {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  
+  .withdraw-form {
+    /* Your form styles here */
+  }
+  
+  .user-balance {
+    /* Styles for user balance */
+  }
+  
+  .amount-container {
+    /* Styles for amount container */
+  }
+  
+  .fields {
+    /* Styles for fields */
+  }
+  
+  .alert {
+    /* Styles for alert */
+  }
+  

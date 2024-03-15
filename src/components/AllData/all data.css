@@ -1,0 +1,21 @@
+.table tbody tr {
+  margin-bottom: 5px; /* Reduced margin between rows */
+}
+
+.table tbody td {
+  padding-top: 5px; /* Reduced padding at the top of cells */
+  padding-bottom: 5px; /* Reduced padding at the bottom of cells */
+}
+
+.table {
+  display: table;
+  table-layout: fixed;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.table-container {
+  background-image: url('D:\PROJECT\BAD BANK pro\BAD BANK pro\public\all data2.jpg');
+  background-size: cover;
+}

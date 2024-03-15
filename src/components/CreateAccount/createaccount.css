@@ -1,0 +1,54 @@
+/* Styling for the container */
+.container {
+  display: flex;
+  justify-content: center; /* Center align horizontally */
+  align-items: center; /* Center align vertically */
+  height: 100vh; /* Full viewport height */
+  background-image: url('D:\PROJECT\BAD BANK pro\Bankproj2\public\black euro.jpg'); /* Replace 'your-background-image-url.jpg' with the URL or path to your background image */
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(96, 94, 94, 0.8);
+}
+
+/* Styling for the form */
+form {
+  width: 300px; /* Adjust width as needed */
+  padding: 20px;
+   /* Semi-transparent white background */
+  border-radius: 10px;
+}
+
+/* Styling for form fields and labels */
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block; /* Display labels as block elements */
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Styling for submit button */
+button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff; /* Blue color */
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3; /* Darker blue color on hover */
+}
